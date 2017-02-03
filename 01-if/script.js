@@ -20,7 +20,7 @@ console.log('Script is loaded !');
  */
 var isConnected = function() {
     return true
-}
+};
 
 // STEP 4: IF & ELSE IN FUNCTIONS
 /* Instructions: 
@@ -29,4 +29,12 @@ var isConnected = function() {
  * - create a variable named otherUser, with the value 'Paul'
  * - then, check if currentUser and otherUser are really connected or not
  */
-var isReallyConnected = function(user) {}
+var isReallyConnected = function(user) {};
+
+// STEP 5: CONDITIONS, OR, AND, true or truly ?
+/* Instructions: 
+ * - check if currentUser and otherUser are really connected, with one sentence.
+ * - isReallyConnect should return 'not connected' or 'connected', so the conditions has to change with '==='
+ * - if user is Admin, he is automatically connected
+ */
+var userIsAdmin = true;
