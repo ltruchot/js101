@@ -2,7 +2,8 @@
 /* Instructions: 
  * - call this script in index.html
  */
-console.log('Script is loaded !');
+console.log('script is not loaded!');
+//alert('djoul range tes slips');
 
 // STEP 2: CREATE BRANCH, COMMIT & PUSH
 /* instructions: 
@@ -17,10 +18,20 @@ console.log('Script is loaded !');
  * - check if currentUser is connected with the function "isConnected"
  * - if he is, log 'welcome <currentUser>'
  * - else, log 'ERROR: user is not connected'
- */
+*/
+var currentUser ='guillaume;'
 var isConnected = function() {
     return true
 };
+
+console.log (isConnected(currentUser);
+
+if(true){
+	console.log ('coucou '+ currentUser)
+}else {
+	console.log ('ERROR: user is not connected')
+}
+
 
 // STEP 4: IF & ELSE IN FUNCTIONS
 /* Instructions: 
