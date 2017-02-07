@@ -2,7 +2,8 @@
 /* Instructions: 
  * - call this script in index.html
  */
-console.log('Script is loaded !');
+console.error('Marine est trop forte !');
+//alert('tata');
 
 // STEP 2: CREATE BRANCH, COMMIT & PUSH
 /* instructions: 
@@ -18,9 +19,18 @@ console.log('Script is loaded !');
  * - if he is, log 'welcome <currentUser>'
  * - else, log 'ERROR: user is not connected'
  */
+var currentUser = 'Marine';
+
 var isConnected = function() {
     return true
 };
+
+
+if(isConnected(currentUser)) {
+	console.log('Welcome ' + currentUser);
+	}else{
+		console.log('ERROR: user is not connected')
+	}
 
 // STEP 4: IF & ELSE IN FUNCTIONS
 /* Instructions: 
