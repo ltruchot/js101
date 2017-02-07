@@ -2,8 +2,9 @@
 /* Instructions: 
  * - call this script in index.html
  */
-console.log('Script is loaded !');
-
+console.log('Eliot = Yoda');
+console.log('Thx to Loic & Samir')
+//alert('ALA');
 // STEP 2: CREATE BRANCH, COMMIT & PUSH
 /* instructions: 
  * - use git command to create a branch: git checkout -b work-of-<my initials>
@@ -18,9 +19,18 @@ console.log('Script is loaded !');
  * - if he is, log 'welcome <currentUser>'
  * - else, log 'ERROR: user is not connected'
  */
+var currentUser = 'Eliot';
+
 var isConnected = function() {
     return true
 };
+
+console.log (isConnected(currentUser));
+
+if (isConnected(currentUser)) {
+	console.log('nique ta mere sale tchoin')
+} else {console.log('mange des gauffres ' + currentUser)
+}
 
 // STEP 4: IF & ELSE IN FUNCTIONS
 /* Instructions: 
