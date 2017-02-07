@@ -2,7 +2,7 @@
 /* Instructions: 
  * - call this script in index.html
  */
-console.log('Script is loaded !');
+console.log('Kaboooooom !');
 
 // STEP 2: CREATE BRANCH, COMMIT & PUSH
 /* instructions: 
@@ -18,9 +18,18 @@ console.log('Script is loaded !');
  * - if he is, log 'welcome <currentUser>'
  * - else, log 'ERROR: user is not connected'
  */
+var currentUser = 'aur';
 var isConnected = function() {
     return true
 };
+
+console.log(isConnected(currentUser));
+
+if (true) {
+	console.log('hello bastard ' + currentUser)
+} else {
+	console.log('ERROR: the guy is not connected')
+}
 
 // STEP 4: IF & ELSE IN FUNCTIONS
 /* Instructions: 
