@@ -2,7 +2,8 @@
 /* Instructions: 
  * - call this script in index.html
  */
-console.log('Script is loaded !');
+console.log('Test');
+
 
 // STEP 2: CREATE BRANCH, COMMIT & PUSH
 /* instructions: 
